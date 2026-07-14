@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="180" viewBox="0 0 640 180" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13">
+  <rect width="640" height="180" rx="8" fill="#0d1117"/>
+  <text x="20" y="40" fill="#7ee787">$ driftwood find "static site generators"</text>
+  <text x="20" y="70" fill="#c9d1d9">3 matches:</text>
+  <text x="20" y="95" fill="#c9d1d9">  2024-11-02  Eleventy vs Hugo: a practical comparison</text>
+  <text x="20" y="120" fill="#c9d1d9">  2023-06-17  The case for boring static sites</text>
+  <text x="20" y="145" fill="#c9d1d9">  2021-01-30  Build a static site with make(1)</text>
+</svg>

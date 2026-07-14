@@ -1,0 +1,55 @@
+{
+  "name": "readmeter",
+  "version": "0.1.0",
+  "description": "Grades a README 0-100 against a concrete, documented checklist and prints prioritized fixes. Offline, zero runtime dependencies, CI-ready exit codes.",
+  "author": "JaydenCJ",
+  "license": "MIT",
+  "type": "module",
+  "bin": {
+    "readmeter": "dist/cli.js"
+  },
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "examples",
+    "docs",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=22.13"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "npm run build && node --test \"tests/*.test.mjs\"",
+    "smoke": "bash scripts/smoke.sh"
+  },
+  "keywords": [
+    "readme",
+    "documentation",
+    "linter",
+    "score",
+    "audit",
+    "markdown",
+    "ci",
+    "quality"
+  ],
+  "devDependencies": {
+    "typescript": "^5.7.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JaydenCJ/readmeter.git"
+  },
+  "homepage": "https://github.com/JaydenCJ/readmeter#readme",
+  "bugs": {
+    "url": "https://github.com/JaydenCJ/readmeter/issues"
+  }
+}
