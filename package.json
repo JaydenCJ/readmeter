@@ -2,7 +2,7 @@
   "name": "readmeter",
   "version": "0.1.0",
   "description": "Grades a README 0-100 against a concrete, documented checklist and prints prioritized fixes. Offline, zero runtime dependencies, CI-ready exit codes.",
-  "author": "JaydenCJ",
+  "author": "JaydenCJ <aisingioro.kiyon@gmail.com>",
   "license": "MIT",
   "type": "module",
   "bin": {
